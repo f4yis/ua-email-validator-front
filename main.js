@@ -3,7 +3,7 @@ $('#btn').click(te => {
     document.getElementById('result').innerHTML = ''
     let d = $('#validator').val()
     $.ajax({
-        url: 'http://127.0.0.1:3000/validate',
+        url: 'http://68.183.129.118:2222/validate',
         type: 'POST',
         dataType: 'json',
         contentType: 'application/json',
